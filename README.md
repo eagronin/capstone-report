@@ -31,7 +31,7 @@ Specific Recommendations to Increase Revenue:
 1. Expensive items should be targeted to the players who login using their iPhones.  Inexpensive items should be targeted to the players who login using other platforms.
 2. The players use predominantly iPhone and Android for playing the game, i.e. they use their mobile phones rather than desktops and laptops.  Therefore, it could potentially be efficient to relocate some of the resources currently allocated to Windows, Linux and Mac into maintaining and developing mobile platforms to increase profitability.
 
-# Recommendations Based on Cluster Analysis
+## Recommendations Based on Cluster Analysis
 As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, groups of users with different attributes (for example, experienced vs. inexperienced players) are likely to have differences in their tendency to make in-app purchases.  Therefore, revenue and profitability can be increased by choosing different strategies for targeting and setting fees for hosting in-app purchase items shown to users from different groups.
 
 We performed cluster analysis in Spark to identify 3 distinct groups of users, as discussed in the [previous section](https://eagronin.github.io/capstone-analyze/).  The recommended actions based on this analysis are listed below:
