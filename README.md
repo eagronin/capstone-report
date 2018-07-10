@@ -54,6 +54,6 @@ The extent to which members of such teams / groups are “similar” to each oth
 ## Conclusions
 As the data exploration stage showed, purchasers of the most expensive items and top users in terms of their spending generate a disproportionately large share of Eglence, Inc. revenue.  Therefore, the ability to identify such users, is critical for Eglence, Inc. to identify new revenue opportunities. The analysis shows that purchasers of expensive items tend to use iPhones. Therefore, targeting expensive items to the players who login using their iPhones will increase revenue for Eglence, Inc.  
 
-Similarly, advertizing the game to iPhones users who have not signed up yet is more valuable than advertizing the game to users of other platforms.  Finally, relocating some of the resources currently allocated to Windows, Linux and Mac into maintaining and developing mobile platforms will increase profitability because the players use predominantly iPhone and Android for playing the game.
+Similarly, advertising the game to iPhone users who have not signed up yet is more valuable than advertising the game to users of other platforms.  Finally, relocating some of the resources currently allocated to Windows, Linux and Mac into maintaining and developing mobile platforms will increase profitability because the players use predominantly iPhone and Android for playing the game.
 
 Previous step: [Analysis](https://eagronin.github.io/capstone-analyze/)
