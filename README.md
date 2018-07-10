@@ -14,7 +14,7 @@ We will discuss recommendations based on the classification analysis first, then
 The analysis is described in the [previous section](https://eagronin.github.io/capstone-analyze/).
 
 ## Recommendations Based on Classification Analysis
-As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, in-app purchases of expensive items generate more revenue for Eglence, Inc. than purchases of inexpensive items. Therefore, it is important to identify users who are more likely to purchase expensive items and market such items to these users.  We call the users who tend to pucharase expensive items “HighRollers” and the users who tend to purchase inexpensive items “PennyPinchers”.  Big-ticket items are those with a price of more than $5.00, and inexpensive items are those that cost $5.00 or less.  
+As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, in-app purchases of expensive items generate more revenue for Eglence, Inc. than purchases of inexpensive items. Therefore, it is important to identify users who are more likely to purchase expensive items and market such items to these users.  We call the users who tend to purchase expensive items “HighRollers” and the users who tend to purchase inexpensive items “PennyPinchers”.  Big-ticket items are those with a price of more than $5.00, and inexpensive items are those that cost $5.00 or less.  
 
 In the previous section we performed classification analysis in KNIME to predict who is a HighRoller and who is a PennyPincher based on the known attributes.  The final KNIME workflow is shown below:
 
