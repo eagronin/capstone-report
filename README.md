@@ -18,7 +18,7 @@ As we discussed in the [Data Exploration section](https://eagronin.github.io/cap
 
 In the previous section we performed classification analysis in KNIME to predict who is a HighRoller and who is a PennyPincher based on the known attributes.  The final KNIME workflow is shown below:
 
-![](https://github.com/eagronin/capstone-analyze/blob/master/KNIME-workflow.png?raw=true)
+![](https://github.com/eagronin/capstone-report/blob/master/KNIME-workflow.png?raw=true)
 
 What makes a HighRoller vs. a PennyPincher?
 
