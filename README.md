@@ -7,14 +7,14 @@ The data for the project consists of 9 files with data on in-app purchases, ad c
 
 The project entails classification analysis by fitting a decision tree and cluster analysis using k-means.  It also uses graph analytics to identify the chattiest users / teams, longest conversations and active user groups. 
 
-The analysis in this project was performed using Python, Spark, KNIME and Neo4j.
+The analysis in this project was performed using Spark, Python, Splunk, KNIME and Neo4j.
 
 We will discuss recommendations based on the classification analysis first, then we will proceed with the recommendations based on cluster analysis and graph analytics.
 
 The analysis is described in the [previous section](https://eagronin.github.io/capstone-analyze/).
 
 ## Recommendations Based on the Classification Analysis
-As we discussed in the [Data Exploration section](https://eagronin.github.io/capstone-prepare/), in-app purchases of expensive items generate more revenue for Eglence, Inc. than purchases of inexpensive items. Therefore, it is important to identify users who are more likely to purchase expensive items and target such items to these users.  We call the users who tend to pucharase expensive items “HighRollers” and the users who tend to purchase inexpensive items “PennyPinchers”.  Big-ticket items are those with a price of more than $5.00, and inexpensive items are those that cost $5.00 or less.  
+As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, in-app purchases of expensive items generate more revenue for Eglence, Inc. than purchases of inexpensive items. Therefore, it is important to identify users who are more likely to purchase expensive items and target such items to these users.  We call the users who tend to pucharase expensive items “HighRollers” and the users who tend to purchase inexpensive items “PennyPinchers”.  Big-ticket items are those with a price of more than $5.00, and inexpensive items are those that cost $5.00 or less.  
 
 In the previous section we performed classification analysis in KNIME to predict who is a HighRoller and who is a PennyPincher based on the known attributes.  The final KNIME workflow is shown below:
 
@@ -32,7 +32,7 @@ Specific Recommendations to Increase Revenue:
 2. The players use predominantly iPhone and Android for playing the game, i.e. they use their mobile phones rather than desktops and laptops.  Therefore, it could potentially be efficient to relocate some of the resources currently allocated to Windows, Linux and Mac into maintaining and developing mobile platforms to increase profitability.
 
 # Recommendations Based on the Cluster Analysis
-As we discussed in the [Data Exploration section](https://eagronin.github.io/capstone-prepare/), groups of users with different attributes (for example, experienced vs. inexperienced players) are likely to have differences in their tendency to make in-app purchases.  Therefore, revenue and profitability can be increased by choosing different strategies for targeting and setting fees for hosting in-app purchase items shown to users from different groups.
+As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, groups of users with different attributes (for example, experienced vs. inexperienced players) are likely to have differences in their tendency to make in-app purchases.  Therefore, revenue and profitability can be increased by choosing different strategies for targeting and setting fees for hosting in-app purchase items shown to users from different groups.
 
 We performed cluster analysis in Spark to identify 3 distinct groups of users, as discussed in the [previous section](https://eagronin.github.io/capstone-analyze/).  The recommended actions based on this analysis are listed below:
 
@@ -43,7 +43,7 @@ Show fewer in-app purchase items to players in Cluster 1 | Players in Cluster 1 
 Provide incentives to players in Cluster 3 | It appears that as players reach the highest level of experience, they reduce their purchasing activity.  It is possible that they become less engaged with the game and, as a result, are less interested in in-app purchases as well.  Further research needs to be conducted to establish if this is indeed the case.  However, if true, incentives should be provided to players in Cluster 3 to increase their interest level and engagement with the game.
 
 ## Recommendations Based on the Graph Analytics
-As we discussed in the [Data Exploration section](https://eagronin.github.io/capstone-prepare/), chattier users, initiators of longer conversations and users who belowng to chattier teams and active user groups are likely to be more valuable, because of their potential to spread information to wider audiences.  As a result, Eglence, Inc. can increase its revenue by choosing the right marketing strategy to target such users, for example, showing the more expensive items to such users.  Even if these users are not going to buy these items, they may influence others in their networks to buy such items.
+As we discussed in the [Data Exploration](https://eagronin.github.io/capstone-prepare/) section, chattier users, initiators of longer conversations and users who belowng to chattier teams and active user groups are likely to be more valuable, because of their potential to spread information to wider audiences.  As a result, Eglence, Inc. can increase its revenue by choosing the right marketing strategy to target such users, for example, showing the more expensive items to such users.  Even if these users are not going to buy these items, they may influence others in their networks to buy such items.
 
 The extent to which chattier users and initiators of longer conversations are more valuable can be calculated using, for example, the difference in per user revenue between the members of these users’ networks / conversation chains and all the other users. Further research needs to be conducted to perform this analysis.
 
